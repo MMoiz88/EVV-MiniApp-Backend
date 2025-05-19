@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "date": "2025-05-20",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "clientName": "John Doe",
+    "address": "123 Main St, Springfield",
+    "caregiverId": 1,
+    "visitLogs": [
+      {
+        "type": "start",
+        "timestamp": "2025-05-19T16:38:32.285Z",
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        }
+      },
+      {
+        "type": "end",
+        "timestamp": "2025-05-19T16:38:38.326Z",
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        }
+      },
+      {
+        "type": "end",
+        "timestamp": "2025-05-19T17:38:03.559Z",
+        "location": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "date": "2025-05-21",
+    "startTime": "14:00",
+    "endTime": "18:00",
+    "clientName": "Jane Smith",
+    "address": "456 Elm St, Springfield",
+    "caregiverId": 1,
+    "visitLogs": [
+      {
+        "type": "start",
+        "timestamp": "2025-05-19T17:25:37.719Z",
+        "location": {
+          "latitude": 24.92168312963302,
+          "longitude": 67.09697315105171
+        }
+      },
+      {
+        "type": "end",
+        "timestamp": "2025-05-19T17:29:07.193Z",
+        "location": {
+          "latitude": 24.921786150577773,
+          "longitude": 67.09696546767974
+        }
+      },
+      {
+        "type": "end",
+        "timestamp": "2025-05-19T17:31:31.172Z",
+        "location": {
+          "latitude": 24.92175913276038,
+          "longitude": 67.09698435660431
+        }
+      },
+      {
+        "type": "end",
+        "timestamp": "2025-05-19T17:31:33.673Z",
+        "location": {
+          "latitude": 24.921759121891558,
+          "longitude": 67.09698436422879
+        }
+      }
+    ]
+  }
+]
